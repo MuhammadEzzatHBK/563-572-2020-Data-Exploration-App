@@ -1,0 +1,10 @@
+"","method","contamination_detection","virus_identifcation"
+"1","PCR",8,1
+"2","IVV test",7,0
+"3","Electron microscopy",4,3
+"4","Viral genome sequencing",0,3
+"5","Immunofluorescence",2,2
+"6","Mass spectrometry protein sequencing",0,2
+"7","RNA fingerprinting",1,1
+"8","Serology",0,6
+"9","Massively parallel sequencing",1,1
