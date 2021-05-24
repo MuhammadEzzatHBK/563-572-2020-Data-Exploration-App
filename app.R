@@ -2,6 +2,7 @@ library(shiny)
 library(tidyverse)
 library(ggthemes)
 library(RColorBrewer)
+library(shinythemes)
 
 contamination_data <- read_csv('data/contaminations_data.csv')
 
@@ -77,7 +78,7 @@ about_the_data <- read_lines('app_text/about_the_data.txt')
 
 ui <- fluidPage(
 
-    titlePanel("(563-572-2020) Data Exploration App"),
+    titlePanel("(563-572-2020) Data Exploration App"),theme = shinytheme("sandstone"),
 
     sidebarLayout(
         sidebarPanel(width = 3,
